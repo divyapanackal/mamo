@@ -94,7 +94,7 @@ input[type="submit"] {
   color: #000;
   outline: none;
   border-radius: 15px;
-  padding: 3px 16px 1px;
+  padding: 3px 16px 2px;
   font-size: 12px;
   line-height: 1;
   background: transparent;
@@ -115,6 +115,14 @@ input[type="submit"] {
     border-top: 1px solid #000;
 }
 
+.seller-row span {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 3px;
+}
 .seller-row  img{
     max-width: 120px;
 }
