@@ -1,0 +1,120 @@
+html,
+body {
+  height: 100%;
+  background: #fbdb14;
+  color: #000;
+}
+
+/*Header*/
+
+.logo {
+  margin: 0;
+}
+.logo img {
+  max-width: 120px;
+}
+.logo a {
+  color: #000;
+  text-decoration: none;
+}
+.logo span {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+}
+.logo span img {
+  width: 10px;
+  margin-right: 3px;
+}
+#header .navbar-light .navbar-toggler {
+  position: relative;
+  height: 30px;
+  width: 48px;
+  border: 0;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+#header .navbar-light .navbar-toggler-icon,
+#header .navbar-light .navbar-toggler-icon:before,
+#header .navbar-light .navbar-toggler-icon:after {
+  background: none;
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  transition-duration: 0.25s;
+}
+#header .navbar-light .navbar-toggler-icon {
+  width: 12px;
+}
+#header .navbar-light .navbar-toggler-icon:before {
+  content: "";
+  top: -10px;
+  width: 22px;
+}
+
+#header .navbar-light .navbar-toggler-icon:after {
+  content: "";
+  top: 10px;
+  width: 22px;
+}
+.profile {
+  padding-top: 8px;
+}
+.profile img {
+  width: 26px;
+}
+.profile span {
+  display: block;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+.search-row {
+  padding: 20px 0;
+  border-bottom: 1px solid #000;
+}
+.search-row input[type="text"] {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  outline: none;
+  font-size: 12px;
+  padding: 0 5px 2px 15px;
+}
+.search-row input[type="text"].location-ico {
+  background: url(../images/pin.svg) no-repeat;
+  background-position: left 1px;
+  background-size: 13px;
+}
+input[type="submit"] {
+  border: 1px solid #000;
+  color: #000;
+  outline: none;
+  border-radius: 15px;
+  padding: 3px 16px 1px;
+  font-size: 12px;
+  line-height: 1;
+  background: transparent;
+}
+
+.search-row input[type="submit"] {
+  text-align: center;
+}
+.map-row{
+    padding: 20px 0;
+}
+.map-row img {
+    object-fit: cover;
+    width: auto;
+    max-width: 100%;
+}
+.seller-row {
+    border-top: 1px solid #000;
+}
+
+.seller-row  img{
+    max-width: 120px;
+}
