@@ -3,6 +3,17 @@ body {
   height: 100%;
   background: #fbdb14;
   color: #000;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
 /*Header*/
@@ -73,7 +84,6 @@ body {
 }
 .search-row {
   padding: 20px 0;
-  border-bottom: 1px solid #000;
 }
 .search-row input[type="text"] {
   width: 100%;
@@ -103,26 +113,116 @@ input[type="submit"] {
 .search-row input[type="submit"] {
   text-align: center;
 }
-.map-row{
-    padding: 20px 0;
+.map-row {
+  padding: 20px 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 .map-row img {
-    object-fit: cover;
-    width: auto;
-    max-width: 100%;
-}
-.seller-row {
-    border-top: 1px solid #000;
+  object-fit: cover;
+  width: auto;
+  max-width: 100%;
 }
 
 .seller-row span {
-    display: block;
-    color: #000;
-    font-size: 14px;
-    text-align: center;
-    font-weight: 500;
-    padding-top: 3px;
+  display: block;
+  color: #000;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 3px;
 }
-.seller-row  img{
-    max-width: 120px;
+.seller-row img {
+  max-width: 120px;
+}
+
+/*Listing*/
+.post-items li {
+  background: #fff;
+}
+.post-items li .post-date,
+.post-items li .post-owner {
+  display: block;
+  text-align: right;
+  font-size: 10px;
+}
+
+.post-items li .post-date {
+  color: #888687;
+}
+
+.post-items .post-logo {
+  background: #e6e6e6;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.post-items .post-info .post-title {
+  text-decoration: none;
+  font-size: 14px;
+}
+.post-items .post-info span {
+  font-size: 12px;
+}
+.msg-info {
+  display: block;
+}
+.post-pagination .pagination li.next {
+  margin-left: auto;
+  margin-right: 0;
+}
+.post-pagination .pagination li.next a {
+  border: 0;
+  background: transparent;
+}
+.post-pagination .pagination li {
+  margin-right: 12px;
+}
+
+.post-pagination .pagination li a {
+  border: 1px solid #000;
+  color: #000;
+}
+.post-pagination .pagination li.active .page-link {
+  color: green;
+  background: #fff;
+}
+.post-pagination .pagination.pagination-sm .page-item:first-child .page-link {
+  border-radius: 0;
+}
+.job-details .post-items li {
+  background: transparent;
+}
+
+.job-details .post-items .post-logo {
+  width: 90px;
+  height: 90px;
+}
+.job-details .post-items .post-info .post-title {
+  font-size: 20px;
+}
+.job-details .post-items .post-owner {
+  text-align: left;
+  font-weight: bold;
+
+}
+.job-details .job-desc h2 {
+  font-weight: normal;
+}
+.job-details .job-desc p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 2;
+}
+.btn-p {
+  border: 1px solid #000;
+    border-radius: 13px;
+    padding: 4px 14px;
+}
+.btn-action {
+  text-align: center;
+}
+.btn-action a {
+  margin: 0 10px;
 }
