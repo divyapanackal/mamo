@@ -4,6 +4,7 @@ body {
   background: #fbdb14;
   color: #000;
   font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 a {
   text-decoration: none;
@@ -205,7 +206,6 @@ input[type="submit"] {
 .job-details .post-items .post-owner {
   text-align: left;
   font-weight: bold;
-
 }
 .job-details .job-desc h2 {
   font-weight: normal;
@@ -217,12 +217,55 @@ input[type="submit"] {
 }
 .btn-p {
   border: 1px solid #000;
-    border-radius: 13px;
-    padding: 4px 14px;
+  border-radius: 13px;
+  padding: 4px 14px;
 }
 .btn-action {
   text-align: center;
 }
 .btn-action a {
+  margin: 0 10px;
+}
+
+.sign-in {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+}
+.sign-in .sign-in-box {
+  align-self: center;
+  width: 100%;
+}
+
+.sign-in .sign-in-box .form-label {
+  font-size: 18px;
+  font-weight: bold;
+}
+.sign-in .sign-in-box .login-actions .btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 48%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sign-in .sign-in-box .login-actions .btn-primary {
+  background: transparent;
+  border-color: #51585e;
+  color: #51585e;
+}
+.otp-box .form-wrap {
+  width: 146px;
+  margin: 0 auto;
+}
+.sign-in .sign-in-box .otp-box .login-actions .btn {
+  width: 140px;
+}
+
+.open-box h2 {
+  font-size: 40px;
+  line-height: 1.5;
+}
+.open-box .login-actions .btn {
+  max-width: 100px;
   margin: 0 10px;
 }

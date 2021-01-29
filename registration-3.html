@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+    <title>Mamo</title>
+  </head>
+  <body>
+    <div>
+        <header id="header">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid ">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo" />
+                    <span><img src="images/pin.svg" />Bengaluru, India</span></a></h1>
+                    <div class="profile">
+                        <img src="images/avatr.png" />
+                        <span>guest</span>
+                    </div>
+
+                </div>
+              </nav>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div class="about-you p-3">
+                    <h2>About you</h2>
+                    <form action="">
+                        <div class="d-flex">
+                            <div class="col-6">
+                                <div class="mb-3">
+                                    <label for="">Gender</label>
+                                    <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
+                                    <label class="btn btn-secondary" for="option1">male</label>
+                                    <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                                    <label class="btn btn-secondary" for="option2">female</label>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="">Date of birth</label>
+                                    <input type="date" id="start" name="trip-start" class="form-control" placeholder="dd/mm/yyyy">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Highest qualification</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                  </div>
+                            </div>
+                            <div class="col-6">
+
+                                <div class="mb-3">
+                                    <label for="exp" class="form-label">Total Experiance (years)</label>
+                                    <input type="text" class="form-control" id="exp" >
+                                  </div>
+
+
+                            </div>
+
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="exp" class="form-label">Preferred location</label>
+                            <input type="text" class="form-control" id="exp" >
+                          </div>
+
+                    </form>
+                   
+
+                  
+              </div>
+        </main>
+    </div>
+
+
+    <script src="./js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>
