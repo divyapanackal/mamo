@@ -86,6 +86,7 @@ ol {
 }
 .search-row {
   padding: 20px 0;
+  background: #fff;
 }
 .search-row input[type="text"] {
   width: 100%;
